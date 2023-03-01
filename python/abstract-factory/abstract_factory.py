@@ -77,7 +77,7 @@ class WizardWorld:
 # Game environment
 
 
-class GameEnvironment:
+class GameEnvironmentFactory:
     def __init__(self, factory):
         self.hero = factory.make_character()
         self.obstacle = factory.make_obstacle()
@@ -102,7 +102,7 @@ def main():
     while not valid_input:
         valid_input, age = validate_age(name)
     game = FrogWorld if age < 18 else WizardWorld
-    environment = GameEnvironment(game(name))
+    environment = GameEnvironmentFactory(game(name))
     environment.play()
 
 
