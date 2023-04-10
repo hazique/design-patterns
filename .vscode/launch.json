@@ -7,7 +7,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Run TS",
             "skipFiles": [
                 "<node_internals>/**"
             ],

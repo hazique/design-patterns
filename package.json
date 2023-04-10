@@ -1,0 +1,22 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "This repository contains a collection of Design Patterns implemented in React and Typescrpt. <br> To learn the patterns implemented in this repository, you may refer to the book **Mastering Python design patterns : create various design patterns to master the art of solving problems using Python by Kasampalis Sakis** available on [OpenLib](https://archive.org/details/masteringpythond0000kasa/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazique/design-patterns.git"
+  },
+  "author": "Hazique Quazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hazique/design-patterns/issues"
+  },
+  "homepage": "https://github.com/hazique/design-patterns#readme",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
